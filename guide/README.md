@@ -4,7 +4,7 @@ This directory holds the full capability guide for operating WhatsApp as a custo
 
 ## Read the guide
 
-- **Web version** (styled, canonical URL): **https://timelines.ai/guides/openclaw-whatsapp-skills**
+- **Web version** (styled, canonical URL): **https://timelines.ai/guide/openclaw-whatsapp-skills**
 - **Markdown source** (in this directory): [`capabilities.md`](capabilities.md)
 
 Both versions are kept in sync manually and contain the same content. The web version is nicer to read; the markdown lives here so GitHub indexes the full text of the guide, so searches like "operate WhatsApp via OpenClaw", "TimelinesAI public API skill", or "WhatsApp autoresponder agent" surface the repo with the full article, not just the skill files.
@@ -43,6 +43,6 @@ See the [top-level README](../README.md) for installation instructions.
 
 ## Staying in sync
 
-The canonical web version is hosted at `https://timelines.ai/guides/openclaw-whatsapp-skills`. The markdown in this repo and the HTML at the canonical URL are kept in sync manually.
+The canonical web version is hosted at `https://timelines.ai/guide/openclaw-whatsapp-skills`. The markdown in this repo and the HTML at the canonical URL are kept in sync manually.
 
 For edits: change the source, sync into this `guide/` directory, commit, and update the canonical URL deploy. Both versions should always agree on what the 22 capabilities are.

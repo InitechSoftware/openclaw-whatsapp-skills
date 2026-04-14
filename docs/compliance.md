@@ -110,4 +110,4 @@ TimelinesAI cannot protect you from this — the ban lives at WhatsApp's infrast
 
 - [WhatsApp Business Messaging Policy](https://www.whatsapp.com/legal/business-policy)
 - [TimelinesAI public API reference](https://timelinesai.mintlify.app/public-api-reference/overview)
-- [OpenClaw + WhatsApp capability guide](https://timelines.ai/guides/openclaw-whatsapp-skills)
+- [OpenClaw + WhatsApp capability guide](https://timelines.ai/guide/openclaw-whatsapp-skills)
