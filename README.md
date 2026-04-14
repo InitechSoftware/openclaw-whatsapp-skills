@@ -2,7 +2,7 @@
 
 Ready-made [OpenClaw](https://docs.openclaw.ai) skills for operating WhatsApp as a customer channel through the [TimelinesAI](https://timelines.ai) public API. Drop them into your OpenClaw workspace and your agent can auto-reply to incoming messages, run multi-turn lead qualification, send transactional notifications, and track delivery — with a shared inbox your teammates can watch.
 
-Companion to the **[OpenClaw + WhatsApp capability guide](https://timelines.ai/guides/openclaw-whatsapp-skills)**, which explains each capability and the API calls it makes. The full guide markdown is also [in this repo at `guide/capabilities.md`](guide/capabilities.md) so GitHub indexes it for search.
+Companion to the **[OpenClaw + WhatsApp capability guide](https://timelines.ai/guide/openclaw-whatsapp-skills)**, which explains each capability and the API calls it makes. The full guide markdown is also [in this repo at `guide/capabilities.md`](guide/capabilities.md) so GitHub indexes it for search.
 
 ## What's in here
 
@@ -15,7 +15,7 @@ Companion to the **[OpenClaw + WhatsApp capability guide](https://timelines.ai/g
 
 Plus:
 
-- [`guide/`](guide/) — the **full 22-capability guide** in markdown, covering inbound handling, outbound transactional sends, CRM sync, operations, state persistence, multi-number sender pinning, limits, and a live-API example round trip. Same content as the [web version at timelines.ai/guides/openclaw-whatsapp-skills](https://timelines.ai/guides/openclaw-whatsapp-skills), lives here so GitHub search indexes it.
+- [`guide/`](guide/) — the **full 22-capability guide** in markdown, covering inbound handling, outbound transactional sends, CRM sync, operations, state persistence, multi-number sender pinning, limits, and a live-API example round trip. Same content as the [web version at timelines.ai/guide/openclaw-whatsapp-skills](https://timelines.ai/guide/openclaw-whatsapp-skills), lives here so GitHub search indexes it.
 - [`examples/vercel-webhook-receiver/`](examples/vercel-webhook-receiver/) — a ~30-line Vercel serverless function that accepts TimelinesAI webhook events and hands them off to your OpenClaw host. One-command deploy.
 - [`docs/compliance.md`](docs/compliance.md) — personal numbers vs WhatsApp Business API, when it's safe to send outbound, when you'll get banned.
 - [`docs/multi-number.md`](docs/multi-number.md) — how to pin sender identity in workspaces with multiple connected WhatsApp numbers.
@@ -73,7 +73,7 @@ See [`.env.example`](.env.example) for the full list. Minimum required: `TIMELIN
 
 ## Companion guide
 
-The capability guide at **https://timelines.ai/guides/openclaw-whatsapp-skills** is the reader-facing version of what these skills implement. If you're wondering *why* a skill does something (the state pattern, sender pinning, the UTF-8 trap in shell heredocs, the webhook retry policy, etc.), that guide has the full context.
+The capability guide at **https://timelines.ai/guide/openclaw-whatsapp-skills** is the reader-facing version of what these skills implement. If you're wondering *why* a skill does something (the state pattern, sender pinning, the UTF-8 trap in shell heredocs, the webhook retry policy, etc.), that guide has the full context.
 
 ## License
 
