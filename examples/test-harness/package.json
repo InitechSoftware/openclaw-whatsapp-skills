@@ -1,0 +1,11 @@
+{
+  "name": "openclaw-whatsapp-test-harness",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Two-number TimelinesAI + OpenClaw test harness. Drives a simulated customer against your real agent-under-test skill, routes by whatsapp_account_id, logs both sides.",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/start-scenario.js"
+  },
+  "dependencies": {}
+}
